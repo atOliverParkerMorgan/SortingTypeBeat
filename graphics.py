@@ -33,7 +33,7 @@ def displayArray(screen, array, width, height, selected_index_arr, sorted_index)
                            height)
 
         if sorted_index > -1:
-            print(element)
+            # print(element)
             pygame.draw.rect(screen, GREEN, rect)
             playSound(element-1)
 
